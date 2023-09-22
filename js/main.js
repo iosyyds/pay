@@ -8,7 +8,7 @@ Time: 2023.06.06
 document.addEventListener("DOMContentLoaded", function () {
 	/* 当HTML文档加载完成后执行函数 */ var qrCode1Image = new Image(); /* 创建一个Image对象用于加载QR Code图像 */
 	qrCode1Image.src = new QRCode(document.createElement("div") /* 创建一个div元素 */, {
-		text: "https://zhifu.dxmjinr.com/static/epic/h5-cashier/entry/shop/?customerId=124306&shopId=S1000146045&signType=1&sign=e8b0483b67d126370919c08cb9e43f6a#/" /* 设置二维码1的内容 */,
+		text: "https://pay.sbios.cn/paypage/?merchant=4bbci9WG6VIVkpxqDjd4DqiQ8CjdF%2F%2BxyNJLoFI%2FXWXW" /* 设置二维码1的内容 */,
 		width: 300 /* 设置二维码宽度 */,
 		height: 300 /* 设置二维码高度 */,
 		correctLevel: QRCode.CorrectLevel.H /* 设置二维码纠错级别 */,
